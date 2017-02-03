@@ -8,7 +8,7 @@
 <br>
 <p align="center">
 
-<img src="logo_large.png" onmouseover="this.src='logo_stealth_large_bw.png'" onmouseout="this.src='logo_large.png'" />
+<img src="logo_large.png" onmouseover="this.src='logo_stealth_large_bw.png'" onmouseout="this.src='logo_large.png'" width="750"/>
 
 <br>
 
