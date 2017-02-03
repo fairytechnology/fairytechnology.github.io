@@ -4,8 +4,10 @@
 <br>
 <br>
 <br>
+<br>
+<br>
 
-<img src="logo_large.png" alt="Fairy" style="width: 1000px;"/>
+<img src="logo_large.png" alt="Fairy" style="width: 750px;"/>
 
 <br>
 <p align="center">
