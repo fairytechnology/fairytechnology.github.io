@@ -1,3 +1,20 @@
+#cssfade { 
+	background-image: url('logo_stealth_large_bw.png');
+	height: 450; 
+	width: 750;
+}
+#cssfade img {
+	-webkit-transition: all ease 1s;
+	-moz-transition: all ease 1s;
+	-o-transition: all ease 1s;
+	-ms-transition: all ease 1s;
+	transition: all ease 1s;
+}
+#cssfade img:hover {
+	opacity: 0;
+}
+
+
 
 <br>
 <br>
@@ -7,8 +24,9 @@
 <br>
 <br>
 <p align="center">
-
-<img src="logo_large.png" onmouseover="this.src='logo_stealth_large_bw.png'" onmouseout="this.src='logo_large.png'" width="750"/>
+<div id="cssfade">
+    <img src="logo_large.png" height="450" width="750"  />
+</div>
 
 <br>
 
