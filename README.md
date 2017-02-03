@@ -6,11 +6,12 @@
 <br>
 <br>
 <br>
+<p align="center">
 
 <img src="logo_large.png" alt="Fairy" style="width: 750px;"/>
 
 <br>
-<p align="center">
+
 <span style="color: #969696; font-family: helvetica; font-size: 1em">
 <br>
 STEALTH MODE
