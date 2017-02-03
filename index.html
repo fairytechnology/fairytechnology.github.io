@@ -1,25 +1,24 @@
 
 <style type="text/css">
+#cf {
+  position:relative;
+  height:430px;
+  width:750px;
+  margin:0 auto;
+}
 
-.bord{
-        padding: 0;
-        margin: 0;
-        -webkit-box-sizing: border-box;
-         }
-.crossfd{
-        background: url("logo_stealth_750_bw.png");
-        display: inline-block;
-        font:size: 0;
-             }
-.crossfd img{
-                 -webkit-transition: opacity 1s ease-in-out;
-                 -moz-transition: opacity 1s ease-in-out;
-                 -o-transition: opacity 1s ease-in-out;
-                 transition: opacity 1s ease-in-out;
-                    }
-.crossfd img:hover{
-                    opacity: 0;
-                               }
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
 
 
 </style>
@@ -33,11 +32,11 @@
 <br>
 <br>
 <br>
-<p align="center">
-<div class="bord crossfd">
-<img src="logo_750.png"></img>
-</div>
 
+<div id="cf">
+  <img class="bottom" src="logo_750.png" />
+  <img class="top" src="logo_stealth_750_bw.png" />
+</div>
 
 <br>
 <br>  
